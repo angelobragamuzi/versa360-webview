@@ -28,7 +28,7 @@ class _AppState extends State<App> {
           },
         ),
       )
-      ..loadRequest(Uri.parse('https://versa360.com.br/login'));
+      ..loadRequest(Uri.parse('https://pres.versasocial.com.br/'));
   }
 
   @override

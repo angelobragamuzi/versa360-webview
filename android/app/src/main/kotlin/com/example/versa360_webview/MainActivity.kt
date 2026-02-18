@@ -1,4 +1,4 @@
-package com.example.versa360_webview
+package com.versa.versa360_webview
 
 import io.flutter.embedding.android.FlutterActivity
 

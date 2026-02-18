@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart' hide Colors;
 import 'package:flutter/services.dart';
 import 'package:shadcn_flutter/shadcn_flutter.dart';
 import 'package:versa360_webview/src/splash/splash_page.dart';
@@ -9,11 +8,11 @@ void main() async {
     SystemUiOverlayStyle(systemNavigationBarColor: Colors.transparent),
   );
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
-  runApp(const VersaSocialApp());
+  runApp(const Versa360App());
 }
 
-class VersaSocialApp extends StatelessWidget {
-  const VersaSocialApp({super.key});
+class Versa360App extends StatelessWidget {
+  const Versa360App({super.key});
 
   @override
   Widget build(BuildContext context) {
